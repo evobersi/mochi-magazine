@@ -1,0 +1,110 @@
+/*
+Theme Name: Nexus-child
+Template: Nexus
+Theme URI: http://www.elegantthemes.com/gallery/
+Version: 1.7.3
+Description: 2 Column theme from Elegant Themes
+Author: Elegant Themes
+Author URI: http://www.elegantthemes.com
+*/
+
+body {
+	background-color: #FFF;
+}
+
+#logo {
+	padding-top: 10px;
+	margin-bottom: -1%;
+	z-index: 9999;
+	-webkit-transition: all 0.6s ease;
+     -moz-transition: all 0.6s ease;
+       -o-transition: all 0.6s ease;
+      -ms-transition: all 0.6s ease;
+          transition: all 0.6s ease;
+}
+
+#logo:hover {
+	 -webkit-transform: rotate(10deg);
+     -moz-transform: rotate(10deg);
+       -o-transform: rotate(10deg);
+      -ms-transform: rotate(10deg);
+          transform: rotate(10deg);
+}
+
+#main-header {
+	background-color: transparent;
+}
+
+.header-banner {
+	padding-top: 6%;
+}
+img.header-img{
+}
+
+#top-menu > li > a:hover {
+	background-color: transparent !important;
+	color: #000;
+	font-weight: 700;
+	font-size: 1.5em;
+	letter-spacing: 0.6px;
+}
+
+#featured { 
+	background-image: url(none) !important;
+	background-color: transparent !important;
+	background-repeat: repeat-y;
+}
+
+h1.module-title, h4.widgettitle, #breadcrumbs { 
+	text-shadow: none;
+	border-top: none;
+	border: none;
+}
+
+h1.module-title:before { 
+	background-image: url(none) !important;
+}
+
+.et-description h2 {
+	background-size: 100% 1em;
+	background-position: 0 center;
+	display: inline;
+    background-repeat: no-repeat;
+    -webkit-box-decoration-break: clone;
+    line-height: 1.2;
+	padding: 1%;
+	text-rendering: optimizeLegibility;
+}
+
+#main-content {
+	background-color: #FFF;
+}
+ #main-content:before {
+	background-color: transparent;
+}
+
+#et-featured-posts,  h4.widgettitle, #breadcrumbs {
+	background-color: transparent;
+}
+
+/* post description changes */ 
+
+.post-description h2 a {
+	color: #000;
+	letter-spacing: 1px;
+	text-shadow: 2px 2px #fff;
+
+}
+
+.home #main-content:after { 
+	background-color: transparent;	
+}
+/* footer */ 
+
+.footer-banner {
+	display: none;
+}
+
+#footer-bottom {
+	border: none;
+}
